@@ -1,0 +1,10 @@
+.todo_complete{
+     background-color: inherit;
+     outline: none;
+     border: none;
+}
+.todo_completed{
+    background-color: #c620a7;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,23 @@
+.app_create{
+    text-align: left;
+    color: #ffffff;
+}
+.create > form > input{
+    /* background-color: gray; */
+    /* text-decoration: black; */
+   background-color: lightgray;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 320px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+}
+.button{
+    margin-left: 40px;
+    background-color: #c620a7;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+}

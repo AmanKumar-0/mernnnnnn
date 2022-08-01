@@ -1,0 +1,70 @@
+.app_header{
+    margin: 63px;
+    text-align: -webkit-center;
+    color: #ffffff;
+}
+.app_create{
+margin: auto;
+text-align: center;
+}
+
+.app_todos{
+    margin: auto;
+    display: inline-block;
+    }
+
+.todo_box{
+margin: auto;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+}
+
+.todo_details{
+    margin: 20px;
+    width: 300px;
+    height: 110px;
+    background-color: #2f2f2f;
+    border-radius: 1rem;
+    /* box-shadow: drop-shadow(50 0 50px 10% ); */
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+    /* drop-shadow: */
+    padding:  1rem;
+    padding-top: 2rem;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    /* box-sizing: border-box; */
+    cursor: pointer;
+}
+.todo_details_border{
+    margin: 20px;
+    width: 300px;
+    height: 110px;
+    background-color: #202020;
+    border-radius: 1rem;
+    /* box-shadow: 0 5px 5px rgba(0,0,0,0.5); */
+    /* box-shadow: drop-shadow(0 0 16px 80% ); */
+
+    padding:  1rem;
+    padding-top: 2rem;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    /* box-sizing: border-box; */
+    cursor: pointer;
+    border: 3px solid green;
+
+}
+
+.todo_delete {
+    margin-top: 30px;
+    border-top: 2px solid #5c5c5c;
+    padding-top: 10px;
+    background-color:inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+

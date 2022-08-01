@@ -1,0 +1,8 @@
+.todo_deleted{
+    background-color: inherit;
+}
+.todo_deleted > button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
