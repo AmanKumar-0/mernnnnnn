@@ -10,7 +10,7 @@ function Com({ data, id }) {
 
     try {
       axios
-        .put(`http://localhost:8000/api/todo/${data._id}`, newData)
+        .put(`/api/todo/${data._id}`, newData)
         .then((res) => console.log(res.data.message));
     } catch (error) {
       console.log(error);

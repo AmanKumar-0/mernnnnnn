@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./style.css";
 function Create() {
-  const URL = "http://localhost:8000/api/todo";
+  const URL = "/api/todo";
   const [data, setData] = useState({ title: "" });
   function handleChange(e) {
     setData((data) => ({ ...data, [e.target.name]: e.target.value }));

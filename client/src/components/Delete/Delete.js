@@ -4,7 +4,7 @@ import "./style.css";
 function Delete({ id }) {
   function handleDelete(id) {
     axios
-      .delete(`http://localhost:8000/api/todo/${id}`)
+      .delete(`/api/todo/${id}`)
       .then((res) => console.log(res.data.message));
   }
   return (
