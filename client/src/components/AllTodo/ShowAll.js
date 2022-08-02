@@ -13,7 +13,6 @@ function ShowAll() {
       .get(URL)
       .then((res) => {
         setTodo(res.data);
-        // console.log(todo);
       })
       .catch((err) => {
         console.log(err.message);
