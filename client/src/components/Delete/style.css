@@ -1,6 +1,5 @@
 .todo_deleted{
     background-color: inherit;
-    color: #afafaf;
 }
 .todo_deleted > button {
     background-color: inherit;
