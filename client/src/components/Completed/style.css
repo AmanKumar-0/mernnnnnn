@@ -7,4 +7,6 @@
     background-color: #c620a7;
     outline: none;
     border: none;
+    cursor: pointer;
+    color: white;
 }
