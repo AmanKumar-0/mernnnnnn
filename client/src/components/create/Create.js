@@ -25,7 +25,7 @@ function Create() {
 
   return (
     <div className="create">
-      <div className="app_create">Add a new task in the list</div>
+      <p>Add a new task in the list</p>
       <form onSubmit={handleSubmit}>
         <input
           className="input_task"

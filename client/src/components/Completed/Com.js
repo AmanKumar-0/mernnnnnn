@@ -5,8 +5,13 @@ function Com({ data, id }) {
   const [newData, setNewData] = useState({});
 
   const handleClick = (data) => {
-    setNewData(data);
-    newData.completed = true;
+    if (data.completed) {
+      setNewData(data);
+      newData.completed = false;
+    } else {
+      setNewData(data);
+      newData.completed = true;
+    }
 
     try {
       axios
@@ -22,7 +27,7 @@ function Com({ data, id }) {
         className={data.completed ? "todo_complete" : "todo_completed"}
         onClick={() => handleClick(data)}
       >
-        Mark as completed
+        {data.completed ? "Mark as incomplete" : "Mark as completed"}
       </button>
     </div>
   );

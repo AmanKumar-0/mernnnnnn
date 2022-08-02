@@ -29,9 +29,10 @@ function ShowAll() {
       <div className="app_create">
         <Create />
       </div>
-      {todo.map((data) => (
+      <div className="app_all">Added Task in To-Do List</div>
+      {todo.map((data, index) => (
         <div className="app_todos">
-          <All data={data} />
+          <All data={data} index={index} />
         </div>
       ))}
     </div>

@@ -1,27 +1,30 @@
 .app_create{
     text-align: left;
     color: #ffffff;
+    margin-left: 15px;
 }
+.create > form > input::placeholder {
+color: white;
+}
+
 .create > form > input{
-    /* background-color: gray; */
-    /* text-decoration: black; */
-   background-color: lightgray;
-    margin-top: 20px;
-    margin-left: 50px;
-    width: 320px;
-    margin-bottom: 30px;
+    color: white;
+    background-color: #6c6a6a;
+    margin: 35px 0;
+    width: 40%;
     outline: none;
     border: none;
-    border-radius: 2rem;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
 }
 .button{
-    margin-left: 40px;
+    margin-left: 35px;
     background-color: #c620a7;
     border: none;
     outline: none;
-    border-radius: 2rem;
+    border-radius: 4px;
     color: white;
     cursor: pointer;
-    width: 70px;
-    padding: 5px;
+    padding: 0.5rem 3rem;
+   
 }
