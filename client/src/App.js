@@ -5,7 +5,7 @@ import ShowAll from "./components/AllTodo/ShowAll";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter  basename='/'>
         <Routes>
           <Route exact path="/" element={<ShowAll />} />
         </Routes>
